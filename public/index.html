@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="testApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Boilerplate for AngularJS</title>
+    <!--<link rel="stylesheet" href="styles/base/reset.css">-->
+    <!--<link rel="stylesheet" href="styles/views/main.css">-->
+    <link rel="stylesheet" href="./dist/bundle.css">
+    
+
+</head>
+<body ng-controller="mainCtrl">
+   <nav-bar></nav-bar>
+
+    <br>
+
+    <div class="main">
+        <h1>{{test}}</h1>
+    </div>
+
+    <hr>
+    <div class="box"></div>
+
+    <main-directive></main-directive>
+
+    <hr>
+
+    <ui-view></ui-view>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+    <script src="./dist/bundle.js"></script>
+    <!--<script src="./js/app.js"></script>
+    <script src="./js/controllers/mainCtrl.js"></script>
+    <script src="./js/directives/mainDirective.js"></script>
+    <script src="./js/services/mainService.js"></script>-->
+</body>
+</html>
